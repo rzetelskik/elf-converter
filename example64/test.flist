@@ -1,0 +1,3 @@
+pnum void int
+pstr void ptr
+f int int int

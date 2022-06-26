@@ -1,0 +1,9 @@
+llret32 longlong
+llret64 longlong
+lret32 long
+lret64 long
+luret32 ulong
+luret64 ulong
+get_var longlong
+ptrret32 ptr
+ptrret64 ptr

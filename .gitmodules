@@ -1,0 +1,9 @@
+[submodule "dependencies/keystone"]
+	path = dependencies/keystone
+	url = https://github.com/keystone-engine/keystone/
+[submodule "dependencies/elfio"]
+	path = dependencies/elfio
+	url = https://github.com/serge1/ELFIO.git
+[submodule "dependencies/fmt"]
+	path = dependencies/fmt
+	url = https://github.com/fmtlib/fmt

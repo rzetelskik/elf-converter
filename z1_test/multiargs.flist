@@ -1,0 +1,4 @@
+check void
+validate_neg void long long longlong longlong
+validate void int long longlong uint ulong ulonglong
+validate_ptr int ptr

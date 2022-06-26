@@ -1,0 +1,19 @@
+Run ./run.sh to build and execute all tests.
+Each test is build from following parts:
+- entrypoint (common.c),
+- function list (*.flist),
+- 64-bit part (*-64.c) and
+- 32-bit part converted to 64-bit (*-32.c, *-32.s)
+
+Tests:
+
+multiargs - call 32->64 with different arguments
+multiargs2 - call 64->32 with different aruments
+retval - check proper passing of return values
+recurse - recurse between 64-bit and 32-bit code
+data - write 32-bit data from 64-bit
+data2 - write 64-bit data from 32-bit
+rodata - read 32-bit rodata from 64-bit code
+rodata2 - read 64-bit rodata from 32-bit code
+reg - test if 32-bit registers are properly restored
+syscall - raw syscall to test if process is running in 32bit mode
